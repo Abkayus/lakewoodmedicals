@@ -1,0 +1,243 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+nav {
+  width: 90%;
+  overflow: auto;
+  padding-bottom: 10px;
+}
+nav ul {
+  list-style: none;
+}
+nav li {
+  float: right;
+}
+nav li a {
+  width: 0px;
+  display: flex;
+  text-decoration: none;
+  text-align: center;
+  font-size: 1em;
+  color: black;
+  position: relative;
+  padding-right: 120px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  white-space: nowrap;
+}
+nav a:hover {
+  cursor: pointer;
+  background-clip: padding-box;
+  background-color: rgb(233, 228, 228);
+}
+#home {
+  padding-left: 100px;
+}
+#title-name a {
+  position: relative;
+  color: blue;
+  font-size: 1.5em;
+  text-align: justify;
+  padding-top: 23px;
+  font-family: raleway, sans-serif;
+  padding-left: 0px;
+  padding-bottom: 0px;
+}
+#logo {
+  padding-top: 30px;
+}
+#header-main {
+  background-color: blue;
+  position: relative;
+  padding-bottom: 60px;
+  padding-top: 50px;
+  opacity: 0.6;
+}
+#header-main h1 {
+  color: white;
+  padding-left: 230px;
+}
+#header-main ul {
+  list-style: none;
+}
+#header-main li {
+  float: left;
+  padding-left: 230px;
+}
+#header-main li a {
+  position: relative;
+  text-decoration: underline;
+  font-size: 1em;
+  color: white;
+  display: grid;
+  justify-content: space-between;
+}
+#body-wrapper {
+  padding-top: 40px;
+  padding-bottom: 100px;
+  columns: 2;
+  justify-content: center;
+  position: relative;
+  background-color: white;
+  width: 100%;
+}
+#body-wrapper img {
+  padding-left: 200px;
+  justify-content: center;
+  position: relative;
+}
+#body-wrapper h1 {
+  color: rgb(74, 74, 228);
+}
+#body-wrapper h3 {
+  padding-top: 30px;
+}
+#body-wrapper h4 {
+  padding-top: 10px;
+  text-decoration: none;
+  font: 1em sans-serif;
+  opacity: 0.5;
+}
+#body-wrapper h5 {
+  padding-top: 20px;
+  text-decoration: none;
+  font: 1em sans-serif;
+  font-size: 1em;
+  padding-right: 140px;
+  letter-spacing: normal;
+  line-height: 1.5;
+  opacity: 0.5;
+}
+#map-img {
+  background-color: white;
+  position: relative;
+  padding-bottom: 150px;
+  max-width: 100%;
+}
+#footer-container {
+  box-sizing: content-box;
+  padding-top: 60px;
+  background-color: blue;
+  opacity: 0.5;
+  column-count: 3;
+  column-fill: auto;
+  column-gap: 20px;
+  list-style: none;
+  min-height: 650px;
+  display: table;
+  width: 100%;
+  position: absolute;
+  z-index: -1;
+}
+
+#logo1 {
+  padding-left: 75px;
+  padding-top: 3px;
+  position: absolute;
+}
+#footer-name a {
+  padding-top: 30px;
+  padding-left: 110px;
+  padding-bottom: 20px;
+  position: relative;
+  text-decoration: none;
+  color: white;
+  font-size: 1.5em;
+}
+#footer-section {
+  padding-left: 200px;
+  position: relative;
+  columns: 1;
+  display: table-cell;
+}
+#footer-section1 ul li {
+  color: white;
+  font-size: 15px;
+  padding-top: 25px;
+  font-family: raleway, sans-serif;
+  padding-left: 70px;
+  list-style: none;
+  line-height: 20px;
+}
+#footer-section2 {
+  padding-right: 100px;
+  position: relative;
+  display: table-cell;
+  line-height: 35px;
+  columns: 1;
+  font-family: sans-serif;
+}
+.comp {
+  padding-bottom: 15px;
+  font: 1em sans-serif;
+  font-weight: bold;
+}
+#footer-section2 h4 {
+  position: relative;
+  text-decoration: none;
+  color: white;
+  font-size: 1em;
+}
+#footer-section2 ul li {
+  text-decoration: none;
+  list-style: none;
+  color: white;
+  font-size: 15px;
+  font-family: raleway, sans-serif;
+  list-style: none;
+  line-height: 50px;
+}
+#footer-section2 a {
+  text-decoration: none;
+  color: white;
+  font-size: 1em;
+}
+#footer-section3 {
+  padding-right: 250px;
+  position: relative;
+  display: table-cell;
+  columns: 1;
+  font-family: sans-serif;
+}
+.serv {
+  padding-bottom: 20px;
+  font: 1em sans-serif;
+  font-weight: bold;
+}
+#footer-section3 h4 {
+  position: relative;
+  text-decoration: none;
+  color: white;
+  font-size: 1em;
+}
+#footer-section3 ul li {
+  text-decoration: none;
+  list-style: none;
+  color: white;
+  font-size: 15px;
+  font-family: raleway, sans-serif;
+  line-height: 50px;
+}
+#footer-section3 a {
+  text-decoration: none;
+  color: white;
+  font-size: 1em;
+}
+#copyright {
+  position: relative;
+  padding-bottom: 100px;
+  padding-top: 580px;
+  padding-left: 270px;
+  color: white;
+  font: 12px sans-serif;
+  line-height: 2.5em;
+  letter-spacing: 0.5px;
+}
+#copyright p a {
+  color: white;
+  font-weight: bold;
+}
