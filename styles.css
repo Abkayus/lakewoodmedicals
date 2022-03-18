@@ -115,6 +115,7 @@ nav a:hover {
 #map-img {
   background-color: white;
   position: relative;
+  overflow: scroll;
   padding-bottom: 150px;
   max-width: 100%;
 }
